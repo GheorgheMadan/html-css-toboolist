@@ -16,6 +16,7 @@ header img {
     padding: 20px;
 }
 header span {
+    padding-top: 10px;
     font-size: 50px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
@@ -26,11 +27,16 @@ main {
     background-color: white;
     margin: 0 auto;
     width: 80%;
-    margin: 20px 20px 20px 20px;
+    padding-bottom: 1%;
+    
 }
 #section {
-    margin-left: 50px;
     margin-top: 20px;
+}
+.contenitore {
+    margin-top: 20px;
+    margin-left: 50px;
+
 }
 #controller1 {
     color: white;
@@ -42,9 +48,8 @@ main {
     text-align: center;
     vertical-align: middle;
     line-height: 25px;
-    margin-right: 20px;
     margin-top: 20px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 #controller2 {
     color: grey;
@@ -57,7 +62,120 @@ main {
     vertical-align: middle;
     line-height: 25px;
     margin-top: 20px;
+    margin-bottom: 20px;
+}
+/* inizio seconda section */
+h2 {
+    margin-bottom: -13px;
+}
+#section2 {
     margin-bottom: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.pulsanti {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 2px;
+    margin-top: 4px;
+    font-size: 12px;
+    color: white;
+    
+
 
 }
+#blu1 {
+    background-color: rgb(66, 133, 221);
+    border-radius: 40%;
+    height: 30px;
+    width: 70px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30px;
+}
+#blu2 {
+    background-color: rgb(66, 133, 221);
+    border-radius: 40%;
+    height: 30px;
+    width: 70px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30px;
+}
+#blu3 {
+    background-color: rgb(66, 133, 221);
+    border-radius: 40%;
+    height: 30px;
+    width: 70px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30px;
+}
+#viola {
+    background-color: rgb(140, 21, 252);
+    border-radius: 40%;
+    height: 30px;
+    width: 70px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30px;
+}
+#verdescuro {
+    background-color: rgb(51, 153, 106);
+    border-radius: 40%;
+    height: 30px;
+    width: 70px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30px;
+}
+#arancione {
+    background-color: rgb(252, 160, 21);
+    border-radius: 40%;
+    height: 30px;
+    width: 70px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30px;
+}
+#rosa {
+    background-color: rgb(182, 93, 177);
+    border-radius: 40%;
+    height: 30px;
+    width: 70px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30px;
+}
 
+.cerchioverde {
+    color: green;
+    background-color: white;
+    border-radius: 50%;
+    border: 1px solid  green;
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 20px;
+    margin-right: 10px;
+}
+.cerchiorosso {
+    color: red;
+    background-color: white;
+    border-radius: 50%;
+    border: 1px solid  red;
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 20px;
+    margin-right: 10px;
+}
