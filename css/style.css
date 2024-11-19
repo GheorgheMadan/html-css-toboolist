@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+    background-color: lightgray;
+}
+
+
+header {
+   background-color: white;
+   padding: 15px;   
+}
+header img {
+    vertical-align: middle;
+}
+header span {
+    font-size: 40px;
+    line-height: 100%;
+    font-style: arial;
+    margin-top: 10px;
+    
+    
+    
+}
