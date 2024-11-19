@@ -2,24 +2,62 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-size: 14px;
     background-color: lightgray;
 }
 
 
 header {
    background-color: white;
-   padding: 15px;   
+   padding: 15px;
+   padding: 0;
 }
 header img {
     vertical-align: middle;
+    padding: 20px;
 }
 header span {
-    font-size: 40px;
-    line-height: 100%;
-    font-style: arial;
-    margin-top: 10px;
-    
-    
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
 }
+/* creazione sfondo */
+main {
+    margin: 20px;
+    background-color: white;
+    margin: 0 auto;
+    width: 80%;
+    margin: 20px 20px 20px 20px;
+}
+#section {
+    margin-left: 50px;
+    margin-top: 20px;
+}
+#controller1 {
+    color: white;
+    border-radius: 8%;
+    background-color: rgb(20, 141, 182);
+    height: 30px;
+    width: 80px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 25px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+#controller2 {
+    color: grey;
+    border-radius: 8%;
+    border: 2px solid grey;
+    height: 28px;
+    width: 100px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 25px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+
+}
+
