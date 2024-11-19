@@ -5,21 +5,18 @@ body {
     background-color: lightgray;
 }
 
-
 header {
    background-color: white;
-   padding: 15px;
-   padding: 0;
 }
 header img {
     vertical-align: middle;
-    padding: 20px;
+    padding: 18px;
 }
 header span {
     padding-top: 10px;
     font-size: 50px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
+    vertical-align: middle;
 }
 /* creazione sfondo */
 main {
@@ -28,6 +25,7 @@ main {
     margin: 0 auto;
     width: 80%;
     padding-bottom: 1%;
+    border-radius: 2%;
     
 }
 #section {
@@ -40,16 +38,9 @@ main {
 }
 #controller1 {
     color: white;
-    border-radius: 8%;
+    border-radius: 15%;
     background-color: rgb(20, 141, 182);
-    height: 30px;
-    width: 80px;
-    display: inline-block;
-    text-align: center;
-    vertical-align: middle;
-    line-height: 25px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+   padding: 6px;
 }
 #controller2 {
     color: grey;
@@ -74,83 +65,48 @@ h2 {
 }
 .pulsanti {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin-left: 2px;
-    margin-top: 4px;
-    font-size: 12px;
+    font-size: 8px;
     color: white;
-    
-
-
 }
 #blu1 {
     background-color: rgb(66, 133, 221);
-    border-radius: 40%;
-    height: 30px;
-    width: 70px;
-    display: inline-block;
-    text-align: center;
-    vertical-align: middle;
-    line-height: 30px;
+    border-radius: 14px;
+    padding: 1%;
 }
 #blu2 {
     background-color: rgb(66, 133, 221);
-    border-radius: 40%;
-    height: 30px;
-    width: 70px;
-    display: inline-block;
-    text-align: center;
-    vertical-align: middle;
-    line-height: 30px;
+    border-radius: 14px;
+    padding: 1%;
 }
 #blu3 {
     background-color: rgb(66, 133, 221);
-    border-radius: 40%;
-    height: 30px;
-    width: 70px;
-    display: inline-block;
-    text-align: center;
-    vertical-align: middle;
-    line-height: 30px;
+    border-radius: 14px;
+    padding: 1%;
 }
 #viola {
     background-color: rgb(140, 21, 252);
-    border-radius: 40%;
-    height: 30px;
-    width: 70px;
-    display: inline-block;
-    text-align: center;
-    vertical-align: middle;
-    line-height: 30px;
+    border-radius: 14px;
+    padding: 1%;
 }
 #verdescuro {
     background-color: rgb(51, 153, 106);
-    border-radius: 40%;
-    height: 30px;
-    width: 70px;
-    display: inline-block;
-    text-align: center;
-    vertical-align: middle;
-    line-height: 30px;
+    border-radius: 14px;
+    padding: 1%;
 }
 #arancione {
     background-color: rgb(252, 160, 21);
-    border-radius: 40%;
-    height: 30px;
-    width: 70px;
-    display: inline-block;
-    text-align: center;
-    vertical-align: middle;
-    line-height: 30px;
+    border-radius: 14px;
+    padding: 1%;
 }
 #rosa {
     background-color: rgb(182, 93, 177);
-    border-radius: 40%;
-    height: 30px;
-    width: 70px;
-    display: inline-block;
-    text-align: center;
-    vertical-align: middle;
-    line-height: 30px;
+    border-radius: 14px;
+    padding: 1%;
+}
+#verde {
+    background-color: rgb(98, 226, 93);
+    border-radius: 14px;
+    padding: 1%;
 }
 
 .cerchioverde {
@@ -158,24 +114,12 @@ h2 {
     background-color: white;
     border-radius: 50%;
     border: 1px solid  green;
-    height: 20px;
-    width: 20px;
-    display: inline-block;
-    text-align: center;
-    vertical-align: middle;
-    line-height: 20px;
-    margin-right: 10px;
+    padding: 3PX;
 }
 .cerchiorosso {
     color: red;
     background-color: white;
     border-radius: 50%;
     border: 1px solid  red;
-    height: 20px;
-    width: 20px;
-    display: inline-block;
-    text-align: center;
-    vertical-align: middle;
-    line-height: 20px;
-    margin-right: 10px;
+    padding: 3PX;
 }
